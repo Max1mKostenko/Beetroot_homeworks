@@ -20,4 +20,3 @@ print(1, 2, 3, 4, 5, 6, 7, 8, 9, sep="-")
 info = ["Maxim", "Kostenko", 15]
 print(f"My name is {info[0]} {info[1]} and I'm {info[2]} y.o.")
 
-print("ddag")
