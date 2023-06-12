@@ -20,10 +20,3 @@ print(f"Good day {_dict['name']}! {_dict['day']} is a perfect day to learn some 
 
 print("Good day %s! %s is a perfect day to learn some python." % (my_name, my_day))
 print("Good day %(name)s! %(day)s is a perfect day to learn some python." % _dict)
-
-
-
-
-
-
-

@@ -1,5 +1,5 @@
-a = int(input("Please enter the first number: "))
-b = int(input("Please enter the second number: "))
+a = 6
+b = 2
 print(a + b)
 print(a - b)
 print(a / b)
