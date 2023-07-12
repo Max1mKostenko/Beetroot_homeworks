@@ -1,0 +1,37 @@
+[
+    {
+        "first name": "John",
+        "last name": "Doe",
+        "telephone": "1234567890",
+        "city": "New York",
+        "state": "NY"
+    },
+    {
+        "first name": "Jane",
+        "last name": "Smith",
+        "telephone": "9876543210",
+        "city": "Los Angeles",
+        "state": "CA"
+    },
+    {
+        "first name": "David",
+        "last name": "Johnson",
+        "telephone": "5551234567",
+        "city": "Chicago",
+        "state": "IL"
+    },
+    {
+        "first name": "Bill",
+        "last name": "Sena",
+        "telephone": "7778889999",
+        "city": "Odessa",
+        "state": "OS"
+    },
+    {
+        "first name": "Maxim",
+        "last name": "Kostenko",
+        "telephone": "0501413163",
+        "city": "Kherson",
+        "state": "KH"
+    }
+]
