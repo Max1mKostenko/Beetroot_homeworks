@@ -198,7 +198,7 @@ main(input("Please enter 1 - (to add new entry)"
            "\n\t\t   / 3 - (to search a contact by last name)"
            "\n\t\t   / 4 - (to search a contact by full name)"
            "\n\t\t   / 5 - (to search a contact by telephone number)"
-           "\n\t\t   / 6 - (to search a contact by city or state)"
+           "\n\t\t   / 6 - (to search a contact by city)"
            "\n\t\t   / 7 - (to delete a record for a given telephone number)"
            "\n\t\t   / 8 - (to update a record for a given telephone number)"
            "\n\t\t   / 9 - (to quit a program): "))

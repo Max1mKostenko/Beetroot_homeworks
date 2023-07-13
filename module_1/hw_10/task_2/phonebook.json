@@ -21,16 +21,16 @@
         "state": "IL"
     },
     {
-        "first name": "Bill",
-        "last name": "Sena",
-        "telephone": "7778889999",
-        "city": "Odessa",
-        "state": "OS"
-    },
-    {
         "first name": "Maxim",
         "last name": "Kostenko",
         "telephone": "0501413163",
+        "city": "Kherson",
+        "state": "KH"
+    },
+    {
+        "first name": "Yura",
+        "last name": "Perepelko",
+        "telephone": "0500823183",
         "city": "Kherson",
         "state": "KH"
     }
