@@ -1,7 +1,7 @@
 def arg_rules(type_: type, max_length: int, contains: list):
     def decorator(func):
         def wrapper(arg):
-            if type(arg) == type_ and len(arg) <= max_length and all(i in arg for i in contains):
+            if type(arg) == type_ and len(arg) <= max_length and (i in arg for i in contains):
                 return func(arg)
             else:
                 return False

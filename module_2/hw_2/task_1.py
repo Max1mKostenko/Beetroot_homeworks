@@ -1,8 +1,7 @@
 def logger(func):
     def wrapper(num1, num2):
         try:
-            num1 = int(num1)
-            num2 = int(num2)
+            num1, num2 = int(num1), int(num2)
         except ValueError:
             print(f"You should input only digits! But your first and second numbers are: '{num2}', '{num2}'")
         return func(num1, num2)

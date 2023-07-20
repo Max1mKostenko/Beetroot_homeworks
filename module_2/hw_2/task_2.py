@@ -7,11 +7,11 @@ def decorator(func):
 
 @decorator
 def function(stop_words: list, sentence):
-    return f"Sentence after the changes: '{' '.join(sentence)}'"
+    return f"Sentence after the changes: '{' '.join(sentence)}'."
 
 
 stop_words_list = ['a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from', 'has', 'he', 'in', 'is', 'it', 'its',
                    'of', 'on', 'that', 'the', 'to', 'was', 'were', 'will', 'with']
-sentence_about_cat = "The cat sat on the mat and looked at the sky."
-print(f"Sentence before the changes: '{sentence_about_cat}'")
+sentence_about_cat = "The cat sat on the mat and looked at the sky"
+print(f"Sentence before the changes: '{sentence_about_cat}'.")
 print(function(stop_words_list, sentence_about_cat))
