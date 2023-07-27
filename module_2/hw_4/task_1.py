@@ -45,6 +45,6 @@ Own classroom: {self.own_classroom}"""
 
 student = Student("Maxim", "Kostenko", 15, "9-C", 214, mathematics=10, science=7, history=10, english=9,
                   computer_Science=9, physical_Education=9, ukrainian=10)
-teacher = Teacher("Elena", "Dvirska", 48, 14, "9-C")
+teacher = Teacher("Elena", "Dvirska", 49, 14, "9-C")
 print(student.info_of_student())
 print(teacher.info_of_teacher())

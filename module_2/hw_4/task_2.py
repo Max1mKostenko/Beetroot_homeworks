@@ -1,5 +1,4 @@
 class Mathematician:
-
     def square_nums(self, _list: list):
         return [i**2 for i in _list]
 
