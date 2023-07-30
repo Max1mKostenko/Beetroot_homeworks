@@ -1,6 +1,6 @@
 class Animal:
     def talk(self):
-        pass
+        return "some voice"
 
 
 class Dog(Animal):
@@ -13,11 +13,11 @@ class Cat(Animal):
         return "The dog say woof woof"
 
 
-def perform_talk(animal):
+def performs_talk(animal):
     print(animal.talk())
 
 
-dog, cat = Dog(), Cat()
-
-perform_talk(dog)
-perform_talk(cat)
+cat = Cat()
+dog = Dog()
+performs_talk(cat)
+performs_talk(dog)
