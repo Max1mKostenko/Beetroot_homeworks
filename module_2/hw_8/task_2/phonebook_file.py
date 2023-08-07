@@ -105,13 +105,13 @@ def search_by_full_name():
                 if i['first name'] == full_name.split(" ")[0] and i["last name"] == full_name.split(" ")[-1]:
                     info = f"\nName: {i['first name']}\nSurname: {i['last name']}\nTelephone number: {i['telephone']}" \
                            f"\nCity: {i['city']}\nState: {i['state']}"
-                    return info
+                    print(info)
 
 
 def search_by_telephone_number():
     with open(json_file, "r") as file:
         data = json.load(file)
-        nums = [i["telephone"] for i in data]
+        nums = {i["telephone"] for i in data}
         num = input(f"Please enter someone telephone of contact list: {nums}\nTo see info about this contact: ")
         if num not in nums:
             return f"Your input: '{num}' isn't valid, the contacts have only these numbers: {nums} "
@@ -135,7 +135,7 @@ def search_by_city():
                 if i["city"] == city:
                     info = f"\nName: {i['first name']}\nSurname: {i['last name']}\nTelephone number: {i['telephone']}" \
                            f"\nCity: {i['city']}\nState: {i['state']}"
-                    return info
+                    print(info)
 
 
 def delete_a_record_for_a_telephone_number():
