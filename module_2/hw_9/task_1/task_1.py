@@ -12,5 +12,9 @@ class ContextManager:
         self.file.close()
 
 
-with ContextManager("task_1.txt", "w") as file:
-    file.write("Hello World!")
+def return_file():
+    with ContextManager("task_1.txt", "w") as file:
+        file.write("Hello World")
+
+
+return_file()
