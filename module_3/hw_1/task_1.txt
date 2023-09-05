@@ -1,0 +1,13 @@
+CREATE TABLE max_test (
+   column1 int,
+   column2 int,
+   PRIMARY KEY(column1));
+
+INSERT INTO max_test (column1, column2)
+VALUES(5, 4);
+
+UPDATE max_test
+SET column1 = 43, column2 = 55;
+
+DELETE FROM max_test
+WHERE column1 = 43;
