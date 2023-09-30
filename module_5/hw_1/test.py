@@ -60,8 +60,8 @@ def question6(n: int) -> int:
 
 
 # question1 - 1 - n
-# question2 - 6 - log n
+# question2 - 6 - 1
 # question3 - 5 - n^2
 # question4 - 4 - n
 # question5 - 3 - n^2
-# question6 - 2 - 1
+# question6 - 2 - log n
